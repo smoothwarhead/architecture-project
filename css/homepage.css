@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;;
+}
+
+.nav-items{
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+}
+.nav-list{
+    right: 5%;
+
+
+}
+
+.logo{
+    left: 5%;
+    z-index: 3;
+}
+.logo a{
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+}
+.nav-list ul li{
+    list-style: none;
+}
+
+.nav-list ul li a{
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 2.5em;
+}
+
+.nav-list ul li a:hover{
+    text-decoration: underline;
+}
+
+
+#background-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background images */
+
+.slide:first-child{
+    background: url('../img/Homepage/ameer.avi_1.jpg') no-repeat center center/cover;
+} 
+.slide:nth-child(2){
+    background: url('../img/Homepage/armagan_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(3){
+    background: url('../img/Homepage/artpartner_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(4){
+    background: url('../img/Homepage/belair_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(5){
+    background: url('../img/Homepage/beverly_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(6){
+    background: url('../img/Homepage/bird_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(7){
+    background: url('../img/Homepage/elena_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(8){
+    background: url('../img/Homepage/juma_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(9){
+    background: url('../img/Homepage/kthengono_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(10){
+    background: url('../img/Homepage/kyde_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(11){
+    background: url('../img/Homepage/los_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(12){
+    background: url('../img/Homepage/mansion_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(13){
+    background: url('../img/Homepage/miami_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(14){
+    background: url('../img/Homepage/miralbo_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(15){
+    background: url('../img/Homepage/nicholas_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(16){
+    background: url('../img/Homepage/sirotov_1.jpg') no-repeat center top/cover;
+}
+.slide:nth-child(17){
+    background: url('../img/Homepage/tamizo_1.jpg') no-repeat center top/cover;
+}
+
+
